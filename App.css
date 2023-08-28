@@ -1,0 +1,231 @@
+/* Reset some default styles */
+body, h1, ul {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f7f7f7;
+}
+
+.App {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+
+.app-title {
+  font-size: 28px;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.input-section {
+  display: flex;
+  margin-bottom: 15px;
+}
+
+.add-task-input {
+  flex: 1;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.add-button {
+  padding: 10px 20px;
+  margin-left: 10px;
+  font-size: 16px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.add-button:hover {
+  background-color: #0056b3;
+}
+
+.search-input {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-bottom: 10px;
+}
+
+.toggle-button {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #28a745;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  margin-bottom: 10px;
+}
+
+.toggle-button:hover {
+  background-color: #1e7e34;
+}
+
+.task-list {
+  list-style: none;
+  padding: 0;
+}
+
+.task-item {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  margin-bottom: 10px;
+  background-color: #f5f5f5;
+  border-radius: 4px;
+  transition: background-color 0.3s;
+}
+
+.task-item.completed {
+  background-color: #e0e0e0;
+}
+
+.task-checkbox {
+  margin-right: 10px;
+}
+
+.task-text {
+  flex: 1;
+  padding: 6px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.due-date-input {
+  padding: 6px;
+  font-size: 16px;
+  margin-left: 10px;
+}
+
+.edit-button, .delete-button {
+  padding: 8px 12px;
+  font-size: 14px;
+  background-color: #dc3545;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  margin-left: 5px;
+}
+
+.edit-button:hover, .delete-button:hover {
+  background-color: #c82333;
+}
+
+.clear-button {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #6c757d;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  margin-top: 10px;
+}
+
+.clear-button:hover {
+  background-color: #5a6268;
+}
+/* Additional styles for the reminder functionality */
+.reminder-input {
+  padding: 6px;
+  font-size: 16px;
+  margin-left: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.reminder-date {
+  font-size: 14px;
+  color: #888;
+  margin-top: 5px;
+}
+
+/* Style for invalid reminder date */
+.reminder-input:invalid {
+  border-color: #dc3545;
+}
+.app-title {
+  font-size: 28px;
+  margin-bottom: 20px;
+  color: #333;
+  text-align: center; /* Center the text */
+}
+/* App.css */
+
+.auth-page {
+  text-align: center;
+}
+
+.auth-page h1 {
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+
+.auth-page p {
+  font-size: 16px;
+  color: #888;
+  margin-bottom: 20px;
+}
+
+.auth-page form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.auth-page input {
+  width: 100%;
+  padding: 10px;
+  margin: 8px 0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+.auth-page button {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.auth-page button:hover {
+  background-color: #0056b3;
+}
+
+.auth-page .auth-switch {
+  margin-top: 20px;
+  font-size: 16px;
+  color: #007bff;
+  cursor: pointer;
+  transition: color 0.3s;
+}
+
+.auth-page .auth-switch:hover {
+  color: #0056b3;
+}
